@@ -73,7 +73,7 @@ int main() {
             break;
         default:
             cout << "Nieprawidłowy wybór." << endl;
-            return ;
+            return 0 ;
     }
 
     if (isEven) {
