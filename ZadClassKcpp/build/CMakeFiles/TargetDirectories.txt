@@ -1,0 +1,3 @@
+/Users/dominikabryla/Documents/Studia/Cpp/kccpZadania/ZadClassKcpp/build/CMakeFiles/ZadClassKcpp.dir
+/Users/dominikabryla/Documents/Studia/Cpp/kccpZadania/ZadClassKcpp/build/CMakeFiles/edit_cache.dir
+/Users/dominikabryla/Documents/Studia/Cpp/kccpZadania/ZadClassKcpp/build/CMakeFiles/rebuild_cache.dir

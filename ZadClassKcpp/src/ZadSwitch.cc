@@ -1,30 +1,15 @@
+#include "../include/ZadSwitch.h"
+#include "../include/ZadParzysta.h"
+#include "../include/ZadKcpp.h"
 
-// Zadanie 4.7
-// --------------------------------------
-// Napisz program wykorzystujący instrukcje 'switch' gdzie:
-// - zamiast pojedynczego znaku będzie sprawdzane całe słowo
-// - program może być uszczegółowieniem/modyfikacją (zrobić kopie pliku i zmienić kopie) tego co jest w ZadParzysteCase.cc
-// - nazwać program: ZadSwitch.cc
-#include <iostream>
-#include <string>
-#include <algorithm> // Dodatkowa biblioteka do usunięcia zbędnych białych znaków
+void ZadSwitch::run() {
+    cout << "===========================================================================================================" << endl;
+    cout << "WYBRANE ZADANIE: ZadSwitch" << endl;
+    cout << "Program wykorzystuje instrukcje 'switch' i sprawdza jaka opcja została podana analizując całe słowo. " << endl;
+    cout << "Pozwala na sprawdzenie parzystości podanej liczby." << endl;
+    cout << "===========================================================================================================\n\n" << endl;
 
-using namespace std;
 
-bool isEvenBitwise(int number) {
-    return (number & 1) == 0;
-}
-
-bool isEvenModulo(int number) {
-    return number % 2 == 0;
-}
-
-bool isEvenConditional(int number) {
-    return number % 2 ? false : true;
-}
-
-int main() {
-   
     int number;
     cout << "Podaj liczbę: ";
     cin >> number;
@@ -83,6 +68,7 @@ int main() {
     }
 
 
-
-    return 0;
+    return ;
 }
+
+
